@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts and prompts</title>  
+</head>
+<body>
+   
+    <script>
+        
+        //greeting
+        var name=prompt("enter your name");
+        alert("hello "+name+" welcome to our website!!" );
+   
+        //calculator
+    
+        var a=prompt("Enter the numbers to calculate");
+        alert("the result is "+eval(a));
+
+        //age
+  
+        var age=prompt("enter your age");
+        if(age>18){
+            alert("you are eligible to vote");
+        }
+        else{
+            alert("you are too young to vote");
+        }
+    
+        //temperature converter
+        var c = +prompt("Enter the temperature in Celsius");
+        alert("Temperature in Fahrenheit is " + ((c * 9) / 5) + 32 + " f");
+
+    
+        //odd even
+        var number=prompt("enter a number");
+        if(number % 2 === 0){
+            alert("number is even");
+        }
+        else{
+            alert("odd number");
+        }
+
+        //password checker
+        var pass=prompt("enter password");
+        if(pass==="12345") 
+        {
+            alert("access granted");
+
+        } 
+        else{
+            alert("access denied");
+        }  
+    </script>
+    
+
+</body>
+</html>
